@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Dilip Kumar Das</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="about" class="section">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>"Crafting seamless experiences, one click at a time. 🌟 #UIUXDesign"
+
+        "Where aesthetics meet functionality. Elevate your digital presence with thoughtful design. #UIUX"
+        
+        "Designing interfaces that inspire and engage. Let's create intuitive journeys together! #UIUX"
+        
+        "From wireframes to WOW! Transforming ideas into user-centered experiences. #UIUXDesign"
+        
+        "User-centric design that delights and delivers. Experience the difference. #UIUX"
+        
+        "Navigating the intersection of beauty and usability. #UIUXDesign"
+        
+        "Designing for the user, refining for the experience. #UIUX"
+        
+        "Simplifying complexity with elegant design solutions. #UIUXDesign"
+        
+        "Building bridges between users and technology through thoughtful design. #UIUX"
+        
+        "Every pixel matters. Crafting compelling digital experiences with precision. #UIUXDesign"
+        
+        Feel free to use these captions for social media posts, portfolios, or wherever you showcase your UI/UX design work!
+        </p>
+  </div>
+</section>
+
+<section id="portfolio" class="section">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <div class="portfolio-items">
+      <div class="portfolio-item">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Project 1</h3>
+        <p> description of Project 1</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Project 2</h3>
+        <p> Description of Project 2</p>
+      </div>
+      <!-- Add more portfolio items as needed -->
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
